@@ -27,7 +27,7 @@ const Summary = () => {
       {showMadeBy && (
         <Modal
           title="Made By"
-          content="1) Nahaleeka Singha, 2) Siddhant Tripathy, 3) Suhani Mukherjee, 4) Tania Mehti"
+          content="1) Nahaleeka Singha, 2) Siddhant Tripathy, 3) Suhani Mukherjee, 4) Tania Maiti"
           onClose={() => setShowMadeBy(false)}
         />
       )}
