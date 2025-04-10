@@ -2,7 +2,7 @@
 
 const StoryContent = () => (
   <>
-    <h2>3.1 A Study in Scarlet</h2>
+    <h2>A Study in Scarlet</h2>
 
     <p>
       The first time that the reader comes in contact with Sherlock Holmes, in
