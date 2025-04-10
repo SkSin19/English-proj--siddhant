@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  background-image: url('/detective-img.png');
+  background-repeat: no-repeat;
+  background-size: contain; /* 🔹 makes image smaller */
+  background-position: top center;
+  background-attachment: fixed;
+  color: #f0e6d2;
+  font-family: 'Georgia', serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+/* Container that centers everything horizontally */
+.summary-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: center; /* Centers text horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Paragraph styling (optional override if needed) */
+.summary-container p {
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+}
+
+/* Red quote text */
+.red-text {
+  color: #ff4c4c;
+  font-style: italic;
+  display: block;
+  margin: 1.5rem 0;
+  max-width: 800px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #f5f5f5;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+  max-width: 800px;
+}
